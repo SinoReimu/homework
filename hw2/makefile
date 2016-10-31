@@ -5,7 +5,7 @@ G = g++
 
 Default:
 	@echo "[HINT] compiling..."
-	@$(G) queue.cpp helper.cpp do.cpp -o hw
+	@$(G) stack.cpp helper.cpp function.cpp do.cpp -o hw
 	@echo "[COMPILE] compile finished"
 
 run:
