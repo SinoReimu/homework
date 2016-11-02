@@ -23,8 +23,7 @@ class Tree {
 		}
 		void addLeft (TreeNode*, string);
 		void addRight (TreeNode*, string);
-		void showTree ();
-	private :
+		void showTree (TreeNode*);
 		TreeNode* root;
 };
 
